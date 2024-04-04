@@ -17,14 +17,17 @@ Bold: 700
 
 --- 02 COLORS
 
+https://coolors.co/palette/143601-1a4301-245501-538d22-73a942-aad576
+
 - Primary: 
 - Tints: 
 - Shades: 
 - Accents:
-  #E5383B
+  #73A942
 - Greys:
   #f5f3f4
   #333
+  #222
 
 
 --- 05 SHADOWS
@@ -32,6 +35,14 @@ Bold: 700
 --- 06 BORDER-RADIUS
 
 --- 07 WHITESPACE
+
+--- 09 INSPIRATION
+
+https://www.nike.com/ca/
+
+https://www.flightclub.com/
+
+https://stockx.com/
 
 Spacing System (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -68,7 +79,7 @@ body {
   margin: 0 auto;
   position: relative;
   height: 9.8rem;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 .logo {
@@ -85,7 +96,7 @@ body {
 /* ***********************/
 
 .main-nav {
-  padding-top: 2.4rem;
+  padding-top: 2.8rem;
 }
 
 .main-nav-list {
@@ -104,21 +115,84 @@ body {
   float: left;
 }
 
+.main-nav-list li:nth-child(2) {
+  float: left;
+}
+
 .main-nav-list li a {
   color: #333;
   font-size: 1.8rem;
   font-weight: 600;
   text-decoration: none;
   display: block;
-  padding: 1.2rem 2.4rem;
+  padding: 1rem 1.8rem;
   transition: all 0.3s;
+  letter-spacing: 1px;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #e5383b;
+  color: #73a942;
+}
+
+.nav-icon {
+  display: inline-block;
+  font-size: 2.8rem;
 }
 
 /* ***********************/
 /*          Hero         */
 /* ***********************/
+
+.section-hero {
+  max-width: 200rem;
+  color: #f7f7f7;
+}
+
+.hero {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(37, 37, 37, 0.73)
+    ),
+    url(../img/hero-cropped.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+  height: 90vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  padding-bottom: 4rem;
+  letter-spacing: 1.5px;
+}
+
+.hero-btn,
+.hero-btn:link,
+.hero-btn:visited {
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #222;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #333;
+}
