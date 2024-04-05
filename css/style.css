@@ -376,3 +376,38 @@ body {
   font-size: 1.2rem;
   padding-top: 0.4rem;
 }
+
+/* ***********************/
+/*        Features       */
+/* ***********************/
+
+.section-features {
+  background-color: inherit;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  height: 20rem;
+  color: #fff;
+  gap: 24rem;
+}
+
+.features-title {
+  font-size: 1.6rem;
+}
+
+.features-verify {
+  background-color: #555;
+  width: 25rem;
+  padding: 2rem;
+}
+
+.features-shipping {
+  background-color: #555;
+  width: 25rem;
+  padding: 2rem;
+}
