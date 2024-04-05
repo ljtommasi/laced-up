@@ -32,16 +32,16 @@
     <title>Laced Up &mdash; Buy Shoes Now</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home"  >
       <nav class="main-nav">
-        <a href="#">
+        <a href="#home">
           <img class="logo" alt="Laced Up logo" src="img/laced-up-logo.png" />
         </a>
 
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">All</a></li>
           <li><a class="main-nav-link" href="#products">Latest</a></li>
-          <li><a class="main-nav-link" href="#">Blog</a></li>
+          <li><a class="main-nav-link" href="#blog">Blog</a></li>
           <li>
             <a class="main-nav-link" href="#">
               <ion-icon class="nav-icon" name="person-outline"></ion-icon>
@@ -224,6 +224,67 @@
           </div>
         </div>
       </section>
+
+      <section class="section-blog" id="blog">
+
+        <div class="container">
+        <h2 class="subheading">From Our Blog</h2>
+
+        <div class="blog">
+          <a href="#">
+            <figure class="blog-card">
+              <img
+                class="blog-img"
+                src="img/blog/blog-dunks.jpg"
+                alt="Person holding Nike Dunks"
+              />
+
+              <div class="blog-info">
+                <span class="blog-name"
+                  >Buyer's Guide to Dunk's
+                </span>
+                <span class="blog-date">04/03/24</span>
+              </div>
+            </figure>
+          </a>
+
+          <a href="#">
+            <figure class="blog-card">
+              <img
+                class="blog-img"
+                src="img/blog/air-force-1.jpg"
+                alt="Person with feet up wearing Nike Air Force 1"
+              />
+
+              <div class="blog-info">
+                <span class="blog-name"
+                  >Why Air Force 1's Are So Popular
+                </span>
+                <span class="blog-date">03/29/24</span>
+              </div>
+            </figure>
+          </a>
+
+          <a href="#">
+            <figure class="blog-card">
+              <img
+                class="blog-img"
+                src="img/blog/jordans-red.jpg"
+                alt="Person holding Nike Dunks"
+              />
+
+              <div class="blog-info">
+                <span class="blog-name"
+                  >Finding The Right Pair For You
+                </span>
+                <span class="blog-date">03/24/24</span>
+              </div>
+            </figure>
+          </a>
+        </div>
+      </div>
+      </section>
+
     </main>
   </body>
 </html>
