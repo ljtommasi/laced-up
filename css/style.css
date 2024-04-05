@@ -76,10 +76,10 @@ body {
 }
 
 .header {
-  margin: 0 auto;
   position: relative;
-  height: 9.8rem;
+  margin: 0 auto;
   background-color: #f7f7f7;
+  z-index: 1;
 }
 
 .logo {
@@ -97,6 +97,8 @@ body {
 
 .main-nav {
   padding-top: 2.8rem;
+  box-shadow: 0 -7px 10px 5px rgba(0, 0, 0, 0.5);
+  height: 10rem;
 }
 
 .main-nav-list {
@@ -125,9 +127,10 @@ body {
   font-weight: 600;
   text-decoration: none;
   display: block;
-  padding: 1rem 1.8rem;
+  padding: 1rem 1.8rem 0 0;
   transition: all 0.3s;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .main-nav-link:hover,
@@ -164,10 +167,11 @@ body {
 
 .hero-text-box {
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 51%;
+  left: 28%;
   transform: translate(-50%, -50%);
   text-align: center;
+  /* text-transform: uppercase; */
 }
 
 .heading-primary {
@@ -195,4 +199,93 @@ body {
 .hero-btn:hover,
 .hero-btn:active {
   background-color: #333;
+}
+
+/* ***********************/
+/*        Products       */
+/* ***********************/
+
+.container {
+  max-width: 200rem;
+  padding-left: 28rem;
+  padding-right: 28rem;
+  padding-top: 6.4rem;
+}
+
+.section-products {
+  color: #333;
+  background-color: #f5f3f4;
+}
+
+.subheading {
+  font-size: 2.4rem;
+  color: #333;
+  margin-bottom: 4.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 5.6rem;
+
+  padding-bottom: 3rem;
+}
+
+.products a {
+  text-decoration: none;
+}
+
+.products-item {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 36rem;
+  background-color: #fff;
+}
+
+.products-item:hover,
+.products-item:active {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.055);
+  transition: all 0.4s;
+}
+
+.products-img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  /* object-fit: contain; */
+}
+
+.products-name {
+  font-size: 1.8rem;
+  color: #333;
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3rem 0 1.8rem 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+.products-lowest {
+  font-size: 1.4rem;
+  color: #777;
+  letter-spacing: -0.05rem;
+}
+
+.products-price {
+  font-size: 2.4rem;
+  padding-top: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.products-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 2rem;
 }
