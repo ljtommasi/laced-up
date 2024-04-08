@@ -240,12 +240,12 @@ body {
   font-size: 1.6rem;
   text-decoration: none;
   color: #555;
+  transition: all 0.3s;
 }
 
 .tertiary-heading a:hover,
 .tertiary-heading a:active {
   color: #888;
-  transition: all 0.3s;
 }
 
 .products {
@@ -268,13 +268,14 @@ body {
   height: 36rem;
   background-color: #fff;
   border-radius: 0.5rem;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.025);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.075);
+  transition: all 0.4s;
 }
 
 .products-item:hover,
 .products-item:active {
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
-  transition: all 0.4s;
+  transform: translateY(-0.75rem);
+  box-shadow: 0 3.2rem 6.2rem rgba(0, 0, 0, 0.06);
 }
 
 .products-img {
@@ -297,7 +298,7 @@ body {
 
 .products-lowest {
   font-size: 1.4rem;
-  color: #777;
+  color: #999;
   letter-spacing: -0.05rem;
 }
 
@@ -319,7 +320,7 @@ body {
 /* ***********************/
 
 .section-blog {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .blog {
@@ -341,13 +342,14 @@ body {
   background-color: #fff;
   height: 34rem;
   border-radius: 0.5rem;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.025);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.075);
+  transition: all 0.4s;
 }
 
 .blog-card:hover,
 .blog-card:active {
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
-  transition: all 0.4s;
+  transform: translateY(-1rem);
+  box-shadow: 0 3.2rem 6.2rem rgba(0, 0, 0, 0.06);
 }
 
 .blog-img {
@@ -383,31 +385,56 @@ body {
 
 .section-features {
   background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 .features {
+  height: 12rem;
+  color: #fff;
+  background-color: #555;
+  width: 35rem;
+  padding: 2rem;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: start;
-  height: 20rem;
-  color: #fff;
-  gap: 24rem;
+  gap: 2rem;
+}
+
+.features-icon {
+  height: 28px;
+  width: 28px;
 }
 
 .features-title {
   font-size: 1.6rem;
+  padding-bottom: 0.8rem;
+  letter-spacing: 0.4px;
+  font-weight: 700;
 }
 
-.features-verify {
-  background-color: #555;
-  width: 25rem;
-  padding: 2rem;
+.features-text {
+  padding-bottom: 0.4rem;
 }
 
-.features-shipping {
-  background-color: #555;
-  width: 25rem;
-  padding: 2rem;
+.info {
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.4px;
+}
+
+.features-link {
+  color: #f7f7f7;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.features-link:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
