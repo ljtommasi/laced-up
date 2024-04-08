@@ -388,16 +388,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 12rem;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  gap: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
 }
 
 .features {
   height: 12rem;
   color: #fff;
-  background-color: #555;
-  width: 35rem;
+  background-color: #444;
+  width: 40rem;
   padding: 2rem;
 
   display: flex;
@@ -437,4 +437,22 @@ body {
 
 .features-link:hover {
   border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+/* ***********************/
+/*         Footer        */
+/* ***********************/
+
+.footer {
+  background-color: #222;
+  height: 42rem;
+}
+
+.footer-logo-alt {
+  height: 14rem;
+  /* padding-top: 2rem;
+  padding-left: 4rem; */
+
+  /* Changes logo from grey to white */
+  -webkit-filter: invert(1) contrast(500%);
 }
