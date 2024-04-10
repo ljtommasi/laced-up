@@ -1,0 +1,71 @@
+/* *******************************/
+/* Below 1380px (Smaller desktops) */
+/* *******************************/
+
+@media (max-width: 86em) {
+  .logo {
+    height: 7rem;
+    top: -9%;
+  }
+
+  .main-nav {
+    padding-top: 2rem;
+    height: 6rem;
+  }
+
+  .main-nav-list li a {
+    font-size: 1.6rem;
+    padding: 0rem 2rem 0 0;
+  }
+
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+
+  .container {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .products-name {
+    font-size: 1.6rem;
+  }
+
+  .section-features {
+    padding-top: 4rem;
+  }
+}
+
+/* *******************************/
+/* Below 1200px (Landscape Tablets) */
+/* *******************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px = 56.25% */
+    font-size: 56.25%;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-btn,
+  .hero-btn:link,
+  .hero-btn:visited {
+    font-size: 1.6rem;
+    padding: 1.2rem 2.8rem;
+    letter-spacing: 1.6px;
+  }
+
+  .hero {
+    height: 95vh;
+  }
+}
+
+/* *******************************/
+/* Below 973px (Landscape Tablets) */
+/* *******************************/
+
+@media (max-width: 61em) {
+}
