@@ -188,6 +188,13 @@
     width: 103.9vw;
   }
 
+  .hero-text-box {
+    max-width: 55rem;
+  }
+
+  .heading-primary {
+  }
+
   .container {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -236,4 +243,7 @@
 /* *******************************/
 
 @media (max-width: 34em) {
+  body {
+    width: 125.5vw;
+  }
 }
