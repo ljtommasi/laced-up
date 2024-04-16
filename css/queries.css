@@ -184,4 +184,56 @@
 /* *******************************/
 
 @media (max-width: 44em) {
+  body {
+    width: 103.9vw;
+  }
+
+  .container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .products {
+    column-gap: 1rem;
+    row-gap: 2rem;
+
+    padding-bottom: 3rem;
+  }
+
+  .blog {
+    column-gap: 4.2rem;
+    padding-bottom: 2rem;
+  }
+
+  .section-features {
+    gap: 4rem;
+  }
+
+  .features {
+    height: 13rem;
+    color: #fff;
+    background-color: #444;
+    width: 35rem;
+    padding: 2rem;
+  }
+
+  .features-title {
+    padding-top: 0.6rem;
+    font-weight: 700;
+  }
+
+  .info {
+    font-size: 1.4rem;
+  }
+
+  .footer {
+    gap: 4rem;
+  }
+}
+
+/* *******************************/
+/* Below 550px (Phones) */
+/* *******************************/
+
+@media (max-width: 34em) {
 }
