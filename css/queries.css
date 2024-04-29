@@ -246,4 +246,137 @@
   body {
     width: 125.5vw;
   }
+
+  .logo {
+    height: 12rem;
+    left: 50%;
+    top: 0;
+  }
+
+  .main-nav {
+    padding-top: 5rem;
+    height: 13rem;
+  }
+
+  .main-nav-list li a {
+    font-size: 2rem;
+  }
+
+  .hero {
+    background-size: auto;
+    height: 60vh;
+  }
+
+  .hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .heading-primary {
+    font-size: 6rem;
+    padding-bottom: 6rem;
+    letter-spacing: 3px;
+    line-height: 6.4rem;
+  }
+
+  .hero-btn,
+  .hero-btn:link,
+  .hero-btn:visited {
+    font-size: 4rem;
+    padding: 3rem 6rem;
+    letter-spacing: 3px;
+  }
+
+  .subheading {
+    font-size: 3.2rem;
+  }
+
+  .tertiary-heading a {
+    font-size: 2.4rem;
+  }
+
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5.6rem;
+    row-gap: 4.8rem;
+
+    padding-bottom: 3rem;
+  }
+
+  .products-name {
+    font-size: 2.4rem;
+  }
+
+  .products-lowest {
+    font-size: 2rem;
+    color: #999;
+    letter-spacing: -0.05rem;
+  }
+
+  .products-price {
+    font-size: 3rem;
+    padding-top: 1rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .blog-name {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+  }
+
+  .blog-date {
+    font-size: 1.4rem;
+    padding-top: 0.8rem;
+  }
+
+  .features-title {
+    font-size: 1.8rem;
+    padding-bottom: 0.8rem;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+  }
+
+  .info {
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.4px;
+  }
+
+  .section-footer {
+    height: 40rem;
+  }
+
+  .footer {
+    padding-top: 8rem;
+  }
+
+  .footer-heading {
+    font-size: 2.4rem;
+    padding-bottom: 3rem;
+  }
+
+  .footer-link {
+    font-size: 2rem;
+  }
+
+  .footer-logo {
+    height: 12rem;
+    padding-left: 0rem;
+    padding-right: 2rem;
+  }
+
+  .social-icon {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .copyright {
+    font-size: 1.6rem;
+  }
 }
