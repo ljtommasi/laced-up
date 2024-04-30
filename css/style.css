@@ -163,7 +163,7 @@ body {
       rgba(255, 255, 255, 0),
       rgba(37, 37, 37, 0.73)
     ),
-    url(../img/hero-cropped.jpg);
+    url(../img/hero-compressed.webp);
   background-size: cover;
   position: relative;
   background-position: center center;
