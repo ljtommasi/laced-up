@@ -31,7 +31,7 @@ Throughout this project, I have learned alot as this is the first website I buil
 - Implement dynamic product loading using JS
 - Incorporate email call-to-action
 - Optimize for accessibility
-- Expand and diversify blog content
+- Implement categories section under products
 
 ## 👨‍💻 Where can I view this website?
 
